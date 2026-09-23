@@ -88,6 +88,7 @@
 
 
 .navbar-logo-mark {
+  font-family: "Colmeak", sans-serif;
   width: 39px;
   height: 39px;
   display: flex;
@@ -106,20 +107,16 @@
     rgba(99, 61, 255, 0.3);
     font-size: 12px;
     font-weight: 800;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.1em;
     color: #ffffff;
 }
 
 .navbar-logo-name {
+  font-family: "Colmeak", sans-serif;
   font-size: 15px;
   font-weight: 650;
   letter-spacing: -0.02em;
   color: rgba(255, 255, 255, 0.92);
-}
-
-
-.navbar-logo-name span {
-  color: #a78bfa;
 }
 
 .navbar-links {
@@ -188,11 +185,6 @@
     rgba(167, 139, 250, 0.8);
 }
 
-
-/* =========================================
-   RIGHT ACTIONS
-========================================= */
-
 .navbar-actions {
   position: relative;
 
@@ -206,11 +198,6 @@
 
   flex-shrink: 0;
 }
-
-
-/* =========================================
-   SOCIAL ICONS
-========================================= */
 
 .navbar-socials {
   display: flex;

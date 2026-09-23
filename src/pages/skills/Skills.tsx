@@ -13,6 +13,12 @@ import {
 import Background from "../../components/Background";
 import "./Skills.css";
 
+const metaData = {
+  title: "My Skills | Frontend Developer",
+  description:
+    "Ernest Daniel Chinedu is a frontend developer building modern, responsive and interactive web experiences.",
+}
+
 const skillsContent = {
   eyebrow: "MY SKILLS",
 
@@ -166,6 +172,8 @@ const Skills = () => {
 
   return (
     <div className="skills-page">
+      <title>{metaData.title}</title>
+      <meta name="description" content={metaData.description} />
       <Background />
 
       <main className="skills-main">

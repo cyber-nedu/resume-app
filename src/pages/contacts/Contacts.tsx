@@ -13,6 +13,12 @@ import {
   Sparkles,
 } from "lucide-react";
 
+const metaData = {
+  title: "Contact Me | Frontend Developer",
+  description:
+    "Ernest Daniel Chinedu is a frontend developer building modern, responsive and interactive web experiences.",
+}
+
 import Background from "../../components/Background";
 import "./Contacts.css";
 
@@ -197,6 +203,8 @@ const Contacts = () => {
 
   return (
     <div className="contact-page">
+      <title>{metaData.title}</title>
+      <meta name="description" content={metaData.description} />
       <Background />
 
       <main className="contact-main">

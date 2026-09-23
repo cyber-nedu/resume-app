@@ -11,6 +11,12 @@ import { Link } from "react-router-dom";
 import Background from "../../components/Background";
 import "./About.css";
 
+const metaData = {
+  title: "About Me | Frontend Developer",
+  description:
+    "Ernest Daniel Chinedu is a frontend developer building modern, responsive and interactive web experiences.",
+};
+
 const aboutContent = {
   eyebrow: "ABOUT ME",
 
@@ -113,6 +119,8 @@ const About = () => {
 
   return (
     <div className="about-page">
+      <title>{metaData.title}</title>
+      <meta name="description" content={metaData.description} />
       <Background />
 
       <main className="about-main">

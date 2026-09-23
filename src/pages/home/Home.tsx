@@ -4,6 +4,12 @@ import Background from "../../components/Background";
 import {useEffect} from "react";
 import "./Home.css";
 
+const metaData = {
+  title: "My Resume | Frontend Developer",
+  description:
+    "Ernest Daniel Chinedu is a frontend developer building modern, responsive and interactive web experiences.",
+};
+
 const homeContent = {
   status: "Available for opportunities",
 
@@ -253,6 +259,8 @@ const Home = () => {
 }, []);
   return (
     <div className="home-page">
+      <title>{metaData.title}</title>
+      <meta name="description" content={metaData.description} />
       <Background />
 
       <section className="home-hero">

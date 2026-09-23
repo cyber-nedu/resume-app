@@ -74,7 +74,7 @@ const Navbar = () => {
             </span>
 
             <span className="navbar-logo-name">
-              Ernest Daniel<span>.</span>
+              Ernest • Daniel
             </span>
           </Link>
 

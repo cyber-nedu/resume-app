@@ -10,6 +10,12 @@ import {
 import Background from "../../components/Background";
 import "./Projects.css";
 
+const metaData = {
+  title: "My Projects | Frontend Developer",
+  description:
+    "Ernest Daniel Chinedu is a frontend developer building modern, responsive and interactive web experiences.",
+}
+
 const projectsContent = {
   eyebrow: "MY WORK",
 
@@ -182,6 +188,8 @@ const Projects = () => {
 
   return (
     <div className="projects-page">
+      <title>{metaData.title}</title>
+      <meta name="description" content={metaData.description} />
       <Background />
 
       <main className="projects-main">
