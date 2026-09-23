@@ -388,7 +388,7 @@ const Home = () => {
         </div>
 
         <div className="home-stats">
-          {homeContent.stats.map((stat, index) => (
+          {homeContent.stats.map((stat) => (
             <div
               className="home-stat-wrapper"
               key={stat.label}
@@ -402,10 +402,7 @@ const Home = () => {
                   {stat.label}
                 </span>
               </div>
-
-              {index < homeContent.stats.length - 1 && (
-                <div className="home-stat-divider"></div>
-              )}
+              
             </div>
           ))}
         </div>
