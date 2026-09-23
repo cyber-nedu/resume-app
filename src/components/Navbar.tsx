@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 import { NavLink, Link } from "react-router-dom";
+import Logo from './Logo'
 import "./Navbar.css";
 
 const navLinks = [
@@ -62,21 +63,7 @@ const Navbar = () => {
     <>
       <header className="navbar">
         <div className="navbar-inner">
-
-          <Link
-            to="/"
-            className="navbar-logo"
-            onClick={closeMenu}
-            aria-label="Ernest Daniel home"
-          >
-            <span className="navbar-logo-mark">
-              ED
-            </span>
-
-            <span className="navbar-logo-name">
-              Ernest • Daniel
-            </span>
-          </Link>
+          <Logo />
 
           <nav
             className="navbar-links"
