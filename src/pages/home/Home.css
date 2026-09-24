@@ -1087,3 +1087,1197 @@
 .home-services-grid .home-service-card:nth-child(4) {
   transition-delay: 0.35s;
 }
+
+
+
+
+
+@media (max-width: 1200px) {
+  .home-hero-container,
+  .home-stats,
+  .home-services-container {
+    width: calc(100% - 60px);
+  }
+
+  .home-hero-container {
+    gap: 50px;
+  }
+
+  .home-services-header,
+  .home-tech-section {
+    gap: 50px;
+  }
+
+  .home-title {
+    font-size: clamp(52px, 6.5vw, 78px);
+  }
+
+  .home-services-heading h2 {
+    font-size: clamp(52px, 7vw, 90px);
+  }
+
+  .home-service-card {
+    padding: 30px;
+  }
+
+  .home-services-cta {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .home-hero {
+    padding-top: 130px;
+  }
+
+  .home-hero-container {
+    grid-template-columns: 1fr;
+    gap: 65px;
+    align-items: start;
+  }
+
+  .home-hero-left {
+    max-width: 850px;
+  }
+
+  .home-hero-right {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .home-code-wrapper {
+    width: min(100%, 720px);
+  }
+
+  .home-code-card {
+    transform: perspective(1200px) rotateY(-2deg);
+  }
+
+  .home-stats {
+    margin-top: 60px;
+  }
+
+  .home-services {
+    padding-top: 120px;
+  }
+
+  .home-services-header {
+    grid-template-columns: 150px 1fr;
+    gap: 45px;
+  }
+
+  .home-services-heading h2 {
+    font-size: clamp(52px, 7vw, 82px);
+  }
+
+  .home-service-content h3 {
+    font-size: clamp(28px, 3.2vw, 38px);
+  }
+}
+
+@media (max-width: 900px) {
+  .home-hero-container,
+  .home-stats,
+  .home-services-container {
+    width: calc(100% - 40px);
+  }
+
+  .home-hero {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .home-title {
+    font-size: clamp(50px, 9vw, 76px);
+  }
+
+  .home-description {
+    max-width: 650px;
+  }
+
+  .home-services-header {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .home-services-label {
+    width: fit-content;
+  }
+
+  .home-services-heading h2 {
+    font-size: clamp(48px, 9vw, 76px);
+  }
+
+  .home-services-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-service-card,
+  .home-service-card-large {
+    min-height: 350px;
+  }
+
+  .home-tech-section {
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .home-services-cta {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .home-services-cta-button {
+    width: fit-content;
+  }
+}
+
+@media (max-width: 768px) {
+  .home-hero {
+    min-height: auto;
+    padding: 120px 0 50px;
+  }
+
+  .home-hero-container {
+    gap: 55px;
+  }
+
+  .home-status {
+    max-width: 100%;
+    font-size: 12px;
+    padding: 8px 13px;
+  }
+
+  .home-title {
+    font-size: clamp(44px, 10vw, 68px);
+    line-height: 1;
+    letter-spacing: -0.045em;
+  }
+
+  .home-description {
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .home-actions {
+    margin-top: 30px;
+    flex-wrap: wrap;
+  }
+
+  .home-button {
+    min-height: 48px;
+    padding: 0 18px;
+  }
+
+  .home-socials {
+    margin-top: 25px;
+  }
+
+  .home-code-wrapper {
+    width: 100%;
+  }
+
+  .home-code-card {
+    transform: none;
+    border-radius: 20px;
+  }
+
+  .home-code-card:hover {
+    transform: translateY(-4px);
+  }
+
+  .home-code-content {
+    padding: 22px 0 25px;
+    font-size: 12px;
+    overflow-x: auto;
+  }
+
+  .home-code-line {
+    grid-template-columns: 48px minmax(max-content, 1fr);
+  }
+
+  .home-line-number {
+    padding-right: 12px;
+  }
+
+  .home-stats {
+    margin-top: 45px;
+    gap: 25px;
+  }
+
+  .home-stat strong {
+    font-size: 23px;
+  }
+
+  .home-stat span {
+    font-size: 11px;
+  }
+
+  .home-services {
+    padding: 100px 0 80px;
+  }
+
+  .home-services-container {
+    width: calc(100% - 40px);
+  }
+
+  .home-services-heading h2 {
+    font-size: clamp(44px, 10vw, 70px);
+  }
+
+  .home-services-heading p {
+    margin-top: 25px;
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  .home-service-card {
+    min-height: 340px;
+    padding: 28px;
+    border-radius: 30px;
+  }
+
+  .home-service-card::after {
+    border-radius: 29px;
+  }
+
+  .home-service-content h3 {
+    font-size: clamp(28px, 5vw, 38px);
+  }
+
+  .home-service-content p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .home-tech-section {
+    margin-top: 65px;
+    padding: 25px 0;
+  }
+
+  .home-tech-list {
+    gap: 8px;
+  }
+
+  .home-tech-item {
+    padding: 10px 14px;
+  }
+
+  .home-services-cta {
+    margin-top: 70px;
+    padding: 40px 30px;
+    border-radius: 30px;
+  }
+
+  .home-services-cta h3 {
+    font-size: clamp(32px, 7vw, 48px);
+  }
+}
+
+@media (max-width: 600px) {
+  .home-hero {
+    padding: 110px 0 40px;
+  }
+
+  .home-hero-container,
+  .home-stats,
+  .home-services-container {
+    width: calc(100% - 30px);
+  }
+
+  .home-hero-container {
+    gap: 45px;
+  }
+
+  .home-status {
+    margin-bottom: 22px;
+    gap: 8px;
+    font-size: 11px;
+  }
+
+  .home-status-dot {
+    width: 6px;
+    height: 6px;
+  }
+
+  .home-title {
+    font-size: clamp(40px, 12vw, 60px);
+    letter-spacing: -0.05em;
+  }
+
+  .home-description {
+    font-size: 14px;
+    line-height: 1.65;
+  }
+
+  .home-actions {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .home-button {
+    width: 100%;
+  }
+
+  .home-socials {
+    gap: 9px;
+  }
+
+  .home-socials a {
+    width: 40px;
+    height: 40px;
+  }
+
+  .home-code-card {
+    border-radius: 17px;
+  }
+
+  .home-code-header {
+    height: 50px;
+    padding: 0 14px;
+  }
+
+  .home-window-controls {
+    width: 60px;
+    gap: 5px;
+  }
+
+  .home-window-controls span {
+    width: 7px;
+    height: 7px;
+  }
+
+  .home-code-file {
+    font-size: 10px;
+  }
+
+  .home-code-header-space {
+    width: 60px;
+  }
+
+  .home-code-content {
+    padding: 18px 0 22px;
+    font-size: 10px;
+    line-height: 1.9;
+  }
+
+  .home-code-line {
+    grid-template-columns: 38px minmax(max-content, 1fr);
+    min-height: 22px;
+  }
+
+  .home-line-number {
+    padding-right: 8px;
+  }
+
+  .home-code-indent {
+    padding-left: 12px;
+  }
+
+  .home-code-indent-2 {
+    padding-left: 24px;
+  }
+
+  .home-typing-cursor {
+    width: 5px;
+    height: 13px;
+  }
+
+  .home-stats {
+    gap: 12px;
+    padding-top: 22px;
+    margin-top: 40px;
+  }
+
+  .home-stat {
+    min-width: 0;
+  }
+
+  .home-stat strong {
+    font-size: 18px;
+  }
+
+  .home-stat span {
+    font-size: 9px;
+    line-height: 1.3;
+  }
+
+  .home-services {
+    padding: 80px 0 65px;
+  }
+
+  .home-services-container {
+    width: calc(100% - 30px);
+  }
+
+  .home-services-header {
+    margin-bottom: 45px;
+  }
+
+  .home-services-heading h2 {
+    font-size: clamp(40px, 12vw, 60px);
+    line-height: 0.98;
+  }
+
+  .home-services-heading p {
+    font-size: 14px;
+  }
+
+  .home-service-card {
+    min-height: 320px;
+    padding: 23px;
+    border-radius: 27px;
+  }
+
+  .home-service-card::after {
+    border-radius: 26px;
+  }
+
+  .home-service-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 15px;
+  }
+
+  .home-service-content h3 {
+    font-size: 27px;
+    margin-bottom: 14px;
+  }
+
+  .home-service-content p {
+    font-size: 13px;
+  }
+
+  .home-service-bottom {
+    padding-top: 18px;
+    gap: 12px;
+  }
+
+  .home-service-bottom > span {
+    font-size: 9px;
+    line-height: 1.4;
+  }
+
+  .home-service-arrow {
+    width: 35px;
+    height: 35px;
+    flex-shrink: 0;
+  }
+
+  .home-tech-section {
+    margin-top: 55px;
+  }
+
+  .home-tech-list {
+    gap: 7px;
+  }
+
+  .home-tech-item {
+    padding: 9px 12px;
+  }
+
+  .home-tech-item span {
+    font-size: 10px;
+  }
+
+  .home-services-cta {
+    margin-top: 55px;
+    padding: 32px 23px;
+    border-radius: 27px;
+    gap: 30px;
+  }
+
+  .home-cta-small {
+    font-size: 9px;
+  }
+
+  .home-services-cta h3 {
+    font-size: 34px;
+  }
+
+  .home-services-cta-button {
+    width: 100%;
+    justify-content: center;
+    padding: 16px 20px;
+  }
+}
+
+@media (max-width: 400px) {
+  .home-hero {
+    padding-top: 100px;
+  }
+
+  .home-hero-container,
+  .home-stats,
+  .home-services-container {
+    width: calc(100% - 24px);
+  }
+
+  .home-title {
+    font-size: clamp(36px, 13vw, 50px);
+  }
+
+  .home-description {
+    font-size: 13px;
+  }
+
+  .home-status {
+    padding: 7px 10px;
+    font-size: 10px;
+  }
+
+  .home-button {
+    min-height: 46px;
+    font-size: 12px;
+    padding: 0 14px;
+  }
+
+  .home-socials a {
+    width: 37px;
+    height: 37px;
+    border-radius: 11px;
+  }
+
+  .home-socials i {
+    font-size: 17px;
+  }
+
+  .home-code-header {
+    padding: 0 10px;
+  }
+
+  .home-window-controls {
+    width: 48px;
+  }
+
+  .home-code-header-space {
+    width: 48px;
+  }
+
+  .home-code-file {
+    gap: 5px;
+    font-size: 8px;
+  }
+
+  .home-code-content {
+    font-size: 8px;
+  }
+
+  .home-code-line {
+    grid-template-columns: 32px minmax(max-content, 1fr);
+  }
+
+  .home-line-number {
+    padding-right: 6px;
+  }
+
+  .home-code-indent {
+    padding-left: 9px;
+  }
+
+  .home-code-indent-2 {
+    padding-left: 18px;
+  }
+
+  .home-stats {
+    gap: 7px;
+  }
+
+  .home-stat strong {
+    font-size: 16px;
+  }
+
+  .home-stat span {
+    font-size: 8px;
+  }
+
+  .home-services {
+    padding-top: 70px;
+  }
+
+  .home-services-heading h2 {
+    font-size: clamp(36px, 13vw, 50px);
+  }
+
+  .home-services-heading p {
+    font-size: 13px;
+  }
+
+  .home-service-card {
+    min-height: 300px;
+    padding: 20px;
+    border-radius: 24px;
+  }
+
+  .home-service-card::after {
+    border-radius: 23px;
+  }
+
+  .home-service-number {
+    font-size: 10px;
+  }
+
+  .home-service-icon {
+    width: 43px;
+    height: 43px;
+    border-radius: 13px;
+  }
+
+  .home-service-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .home-service-content h3 {
+    font-size: 24px;
+  }
+
+  .home-service-content p {
+    font-size: 12px;
+  }
+
+  .home-service-bottom > span {
+    font-size: 8px;
+  }
+
+  .home-service-arrow {
+    width: 32px;
+    height: 32px;
+  }
+
+  .home-tech-title span {
+    font-size: 8px;
+  }
+
+  .home-tech-item {
+    padding: 8px 10px;
+  }
+
+  .home-tech-item span {
+    font-size: 9px;
+  }
+
+  .home-services-cta {
+    padding: 28px 20px;
+    border-radius: 24px;
+  }
+
+  .home-services-cta h3 {
+    font-size: 29px;
+  }
+
+  .home-services-cta-button {
+    font-size: 11px;
+    padding: 14px 16px;
+  }
+}
+
+@media (max-width: 320px) {
+  .home-hero {
+    padding-top: 90px;
+    padding-bottom: 30px;
+  }
+
+  .home-hero-container,
+  .home-stats,
+  .home-services-container {
+    width: calc(100% - 16px);
+  }
+
+  .home-hero-container {
+    gap: 35px;
+  }
+
+  .home-status {
+    max-width: 100%;
+    margin-bottom: 18px;
+    padding: 6px 8px;
+    gap: 6px;
+    font-size: 8px;
+  }
+
+  .home-status-dot {
+    width: 5px;
+    height: 5px;
+  }
+
+  .home-title {
+    font-size: clamp(31px, 13vw, 42px);
+    line-height: 0.98;
+  }
+
+  .home-description {
+    margin-top: 18px;
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  .home-actions {
+    margin-top: 22px;
+    gap: 8px;
+  }
+
+  .home-button {
+    min-height: 42px;
+    font-size: 10px;
+    border-radius: 11px;
+    padding: 0 10px;
+    gap: 6px;
+  }
+
+  .home-button svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .home-socials {
+    margin-top: 18px;
+    gap: 6px;
+  }
+
+  .home-socials a {
+    width: 32px;
+    height: 32px;
+    border-radius: 9px;
+  }
+
+  .home-socials i {
+    font-size: 14px;
+  }
+
+  .home-socials svg {
+    width: 15px;
+    height: 15px;
+  }
+
+  .home-code-card {
+    border-radius: 13px;
+  }
+
+  .home-code-header {
+    height: 42px;
+    padding: 0 7px;
+  }
+
+  .home-window-controls {
+    width: 38px;
+    gap: 3px;
+  }
+
+  .home-window-controls span {
+    width: 5px;
+    height: 5px;
+  }
+
+  .home-code-file {
+    gap: 3px;
+    font-size: 7px;
+  }
+
+  .home-code-file svg {
+    width: 10px;
+    height: 10px;
+  }
+
+  .home-code-header-space {
+    width: 38px;
+  }
+
+  .home-code-content {
+    padding: 13px 0 17px;
+    font-size: 7px;
+    line-height: 1.8;
+  }
+
+  .home-code-line {
+    grid-template-columns: 27px minmax(max-content, 1fr);
+    min-height: 17px;
+  }
+
+  .home-line-number {
+    padding-right: 4px;
+  }
+
+  .home-code-indent {
+    padding-left: 6px;
+  }
+
+  .home-code-indent-2 {
+    padding-left: 12px;
+  }
+
+  .home-typing-cursor {
+    width: 4px;
+    height: 10px;
+  }
+
+  .home-stats {
+    gap: 5px;
+    padding-top: 17px;
+    margin-top: 30px;
+  }
+
+  .home-stat {
+    flex: 1;
+  }
+
+  .home-stat strong {
+    font-size: 13px;
+  }
+
+  .home-stat span {
+    display: block;
+    max-width: 70px;
+    font-size: 7px;
+  }
+
+  .home-services {
+    padding: 60px 0 50px;
+  }
+
+  .home-services-header {
+    gap: 18px;
+    margin-bottom: 35px;
+  }
+
+  .home-services-label {
+    gap: 7px;
+    font-size: 7px;
+  }
+
+  .home-services-label div {
+    width: 20px;
+  }
+
+  .home-services-heading h2 {
+    font-size: clamp(31px, 13vw, 42px);
+  }
+
+  .home-services-heading p {
+    margin-top: 18px;
+    font-size: 11px;
+    line-height: 1.6;
+  }
+
+  .home-services-grid {
+    gap: 10px;
+  }
+
+  .home-service-card {
+    min-height: 275px;
+    padding: 16px;
+    border-radius: 20px;
+  }
+
+  .home-service-card::after {
+    border-radius: 19px;
+  }
+
+  .home-service-number {
+    font-size: 8px;
+  }
+
+  .home-service-icon {
+    width: 38px;
+    height: 38px;
+    border-radius: 11px;
+  }
+
+  .home-service-icon svg {
+    width: 17px;
+    height: 17px;
+  }
+
+  .home-service-content h3 {
+    font-size: 20px;
+    line-height: 1.05;
+    margin-bottom: 10px;
+  }
+
+  .home-service-content p {
+    font-size: 10px;
+    line-height: 1.6;
+  }
+
+  .home-service-bottom {
+    padding-top: 13px;
+    gap: 6px;
+  }
+
+  .home-service-bottom > span {
+    font-size: 6px;
+    letter-spacing: 0.04em;
+  }
+
+  .home-service-arrow {
+    width: 27px;
+    height: 27px;
+  }
+
+  .home-service-arrow svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .home-tech-section {
+    gap: 18px;
+    margin-top: 40px;
+    padding: 20px 0;
+  }
+
+  .home-tech-title span {
+    font-size: 7px;
+  }
+
+  .home-tech-list {
+    gap: 5px;
+  }
+
+  .home-tech-item {
+    padding: 6px 8px;
+  }
+
+  .home-tech-item span {
+    font-size: 7px;
+  }
+
+  .home-services-cta {
+    margin-top: 40px;
+    padding: 22px 16px;
+    gap: 22px;
+    border-radius: 20px;
+  }
+
+  .home-cta-small {
+    margin-bottom: 9px;
+    font-size: 7px;
+  }
+
+  .home-services-cta h3 {
+    font-size: 24px;
+    line-height: 1.05;
+  }
+
+  .home-services-cta-button {
+    width: 100%;
+    min-height: 38px;
+    padding: 10px 12px;
+    font-size: 9px;
+    gap: 6px;
+  }
+
+  .home-services-cta-button svg {
+    width: 14px;
+    height: 14px;
+  }
+}
+
+@media (max-width: 260px) {
+  .home-hero-container,
+  .home-stats,
+  .home-services-container {
+    width: calc(100% - 12px);
+  }
+
+  .home-hero {
+    padding-top: 80px;
+  }
+
+  .home-title {
+    font-size: 29px;
+  }
+
+  .home-description {
+    font-size: 10px;
+  }
+
+  .home-status {
+    font-size: 7px;
+    padding: 5px 7px;
+  }
+
+  .home-button {
+    font-size: 9px;
+    min-height: 38px;
+  }
+
+  .home-code-content {
+    font-size: 6px;
+  }
+
+  .home-code-line {
+    grid-template-columns: 23px minmax(max-content, 1fr);
+  }
+
+  .home-line-number {
+    padding-right: 3px;
+  }
+
+  .home-code-indent {
+    padding-left: 4px;
+  }
+
+  .home-code-indent-2 {
+    padding-left: 8px;
+  }
+
+  .home-stats {
+    gap: 3px;
+  }
+
+  .home-stat strong {
+    font-size: 11px;
+  }
+
+  .home-stat span {
+    font-size: 6px;
+  }
+
+  .home-services-heading h2 {
+    font-size: 28px;
+  }
+
+  .home-services-heading p {
+    font-size: 10px;
+  }
+
+  .home-service-card {
+    min-height: 250px;
+    padding: 13px;
+  }
+
+  .home-service-content h3 {
+    font-size: 18px;
+  }
+
+  .home-service-content p {
+    font-size: 9px;
+  }
+
+  .home-service-bottom > span {
+    font-size: 5px;
+  }
+
+  .home-services-cta h3 {
+    font-size: 21px;
+  }
+
+  .home-services-cta-button {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 240px) {
+  .home-hero-container,
+  .home-stats,
+  .home-services-container {
+    width: calc(100% - 8px);
+  }
+
+  .home-hero {
+    padding-top: 75px;
+  }
+
+  .home-title {
+    font-size: 26px;
+  }
+
+  .home-description {
+    font-size: 9px;
+  }
+
+  .home-code-header {
+    height: 36px;
+  }
+
+  .home-code-content {
+    font-size: 5px;
+    padding-top: 10px;
+    padding-bottom: 12px;
+  }
+
+  .home-code-line {
+    grid-template-columns: 20px minmax(max-content, 1fr);
+  }
+
+  .home-code-file {
+    font-size: 6px;
+  }
+
+  .home-window-controls {
+    width: 30px;
+  }
+
+  .home-code-header-space {
+    width: 30px;
+  }
+
+  .home-stats {
+    padding-top: 13px;
+  }
+
+  .home-stat strong {
+    font-size: 10px;
+  }
+
+  .home-stat span {
+    font-size: 5px;
+  }
+
+  .home-service-card {
+    min-height: 230px;
+    padding: 11px;
+  }
+
+  .home-service-icon {
+    width: 33px;
+    height: 33px;
+  }
+
+  .home-service-icon svg {
+    width: 14px;
+    height: 14px;
+  }
+
+  .home-service-content h3 {
+    font-size: 16px;
+  }
+
+  .home-service-content p {
+    font-size: 8px;
+  }
+
+  .home-service-arrow {
+    width: 23px;
+    height: 23px;
+  }
+
+  .home-service-arrow svg {
+    width: 11px;
+    height: 11px;
+  }
+
+  .home-tech-item {
+    padding: 5px 6px;
+  }
+
+  .home-tech-item span {
+    font-size: 6px;
+  }
+
+  .home-services-cta {
+    padding: 18px 12px;
+  }
+
+  .home-services-cta h3 {
+    font-size: 19px;
+  }
+
+  .home-services-cta-button {
+    min-height: 34px;
+    padding: 8px 9px;
+    font-size: 7px;
+  }
+}
